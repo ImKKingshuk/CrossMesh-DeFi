@@ -28,12 +28,14 @@ async function main() {
   // Deploy VaultRouter
   const vaultRouterHash = await walletClient.deployContract({
     abi: vaultRouterArtifact.abi, // Use full ABI from artifact (better than manual parseAbi)
-    bytecode: vaultRouterArtifact.bytecode, // Bytecode from artifact
+    bytecode: vaultRouterArtifact.bytecode as `0x${string}`, // Bytecode from artifact (cast to satisfy viem's type)
     args: [],
   });
 
   // Fetch public client (hre.viem.publicClient isn't directly available; use getPublicClient instead)
-  const publicClient = await hre.viem.getPublicClient();
+  const publicClient = await hre.viem.getPublicClient({
+    chain: crossfiTestnet,
+  });
 
   const vaultRouterReceipt = await publicClient.waitForTransactionReceipt({
     hash: vaultRouterHash,
@@ -48,7 +50,7 @@ async function main() {
   // Deploy GovernanceDAO
   const governanceDAOHash = await walletClient.deployContract({
     abi: governanceDAOArtifact.abi,
-    bytecode: governanceDAOArtifact.bytecode,
+    bytecode: governanceDAOArtifact.bytecode as `0x${string}`,
     args: [],
   });
   const governanceDAOReceipt = await publicClient.waitForTransactionReceipt({
