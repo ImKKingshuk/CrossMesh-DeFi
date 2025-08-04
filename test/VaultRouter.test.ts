@@ -14,7 +14,7 @@ describe("VaultRouter", function () {
 
     expect(
       await vaultRouter.deposits(
-        await ethers.provider.getSigner(0).getAddress()
+        await (await ethers.provider.getSigner(0)).getAddress()
       )
     ).to.equal(ethers.parseEther("1.0"));
   });
@@ -33,7 +33,7 @@ describe("VaultRouter", function () {
 
     expect(
       await vaultRouter.deposits(
-        await ethers.provider.getSigner(0).getAddress()
+        await (await ethers.provider.getSigner(0)).getAddress()
       )
     ).to.equal(0);
   });
