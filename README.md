@@ -5,9 +5,9 @@
  CrossMesh AI is an autonomous yield    optimizer that routes your assets across chains and protocols using real-time strategy powered by Ai-Agents maximizing returns without manual effort.
       
 </p>
-<p align="center">
+<!-- <p align="center">
   <img src="public/CrossMeshAI.png" alt="CrossMeshAI Logo" width="100"/>
-</p>
+</p> -->
 
 <h3 align="center">
   <a href="https://crossmeshai.vercel.app" target="_blank"> Visit Live Project</a>
@@ -33,7 +33,7 @@ Built on the CrossFi blockchain with seamless cross-chain capabilities, CrossMes
 ## 🖼️ Demo & Screenshots
 
 <p align="center">
-  <img src="public/CrossMeshAI.png" alt="CrossMeshAI Dashboard" width="800"/>
+  <img src="https://crossmeshai.vercel.app/CrossMeshAI.png" alt="CrossMeshAI Dashboard" width="800"/>
 </p>
 
 ## ✨ Features <a name="features"></a>
