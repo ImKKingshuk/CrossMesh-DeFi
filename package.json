@@ -8,11 +8,12 @@
     "deploy": "hardhat run scripts/deploy.ts --network crossfiTestnet"
   },
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
     "@nomicfoundation/hardhat-toolbox-viem": "^4.1.0",
-    "@nomicfoundation/hardhat-ethers": "^3.1.0",
     "hardhat": "^2.26.1",
     "@openzeppelin/contracts": "^5.4.0",
     "dotenv": "^17.2.1"
+  },
+  "dependencies": {
+    "viem": "^2.33.2"
   }
 }
