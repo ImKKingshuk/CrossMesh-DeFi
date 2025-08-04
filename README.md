@@ -14,6 +14,12 @@
 </h3>
 <br>
 
+## 🖼️ Demo & Screenshots
+
+<p align="center">
+  <img src="https://crossmeshai.vercel.app/CrossMeshAI.png" alt="CrossMeshAI Dashboard" width="1000"/>
+</p>
+
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#architecture">Architecture</a> •
@@ -29,12 +35,6 @@
 CrossMeshAI is an autonomous yield optimizer that routes your assets across chains and protocols using real-time strategy powered by AI-Agents, maximizing returns without manual effort. The platform leverages artificial intelligence to analyze market conditions, assess risks, and automatically allocate funds to the highest-yielding protocols across multiple blockchain networks.
 
 Built on the CrossFi blockchain with seamless cross-chain capabilities, CrossMeshAI eliminates the complexity of DeFi yield farming by providing a single interface for managing assets across the entire blockchain ecosystem.
-
-## 🖼️ Demo & Screenshots
-
-<p align="center">
-  <img src="https://crossmeshai.vercel.app/CrossMeshAI.png" alt="CrossMeshAI Dashboard" width="1000"/>
-</p>
 
 ## ✨ Features <a name="features"></a>
 
