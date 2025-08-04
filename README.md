@@ -33,7 +33,7 @@ Built on the CrossFi blockchain with seamless cross-chain capabilities, CrossMes
 ## 🖼️ Demo & Screenshots
 
 <p align="center">
-  <img src="https://crossmeshai.vercel.app/CrossMeshAI.png" alt="CrossMeshAI Dashboard" width="800"/>
+  <img src="https://crossmeshai.vercel.app/CrossMeshAI.png" alt="CrossMeshAI Dashboard" width="1000"/>
 </p>
 
 ## ✨ Features <a name="features"></a>
